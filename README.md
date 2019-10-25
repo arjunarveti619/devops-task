@@ -20,7 +20,7 @@ This Job will build jar using maven ,build docker image and push it to docker pu
 
 - docker image will be pulled and spring-petclinic app will run on private subnet's VM .
 
-- To access spring-petclinic application goto Azure portal and Load balancer , get the IP of Load balancer and hit the URL http://<ip>:9090 
+- To access spring-petclinic application goto Azure portal and Load balancer , get the IP of Load balancer and hit the URL http://{load-balancers-ip}:9090 
 
 
 ### Note - 
