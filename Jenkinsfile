@@ -28,5 +28,8 @@ pipeline {
         }
       }
     }
+    stage('Deploy Spring Petclinic app') {
+      build 'deploy-spring-petclinic'
+    }
   }
 }
